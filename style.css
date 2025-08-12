@@ -8,13 +8,13 @@ body{
     color: black;
 }
 
-#navbar{
+.navbar{
     background-color:rgb(182, 132, 6);
     color: rgb(236, 236, 226);
     text-align: center;
 }
 
-#icone{
+.icone{
     width: 250px;
     height: 250px;
 }
