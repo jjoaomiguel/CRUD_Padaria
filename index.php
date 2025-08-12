@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="style.css">
     <a href="create.php"></a>
+    <a href="db.php"></a>
+    <a href="delete.php"></a>
+    <a href="read.php"></a>
+    <a href="update.php"></a>
     <title>Bumba Meu Pão</title>
 </head>
 <body>
