@@ -3,7 +3,11 @@ body{
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 40px 20px;
-    display: block;
-    unicode-bidi: isolate;
-    
+}
+
+#icone{
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
 }
