@@ -1,2 +1,2 @@
-<link rel="stylesheet" href="media.css">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="../style/media.css">
+<link rel="stylesheet" href="../style/style.css">

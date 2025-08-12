@@ -19,16 +19,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 ?>
 
-
-
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="media.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style/media.css">
+    <link rel="stylesheet" href="../style/style.css">
     <title>Create</title>
 </head>
 <body>
@@ -36,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
         <div class="navbar">
             <div class="flex">
-                <img class="icone" src="imagens/logo.png" alt="Logo Bumba Meu Pão">
+                <img class="icone" src="../assets/logo.png" alt="Logo Bumba Meu Pão">
             </div>
         </div>
 
