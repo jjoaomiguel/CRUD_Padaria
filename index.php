@@ -5,23 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="media.css">
     <link rel="stylesheet" href="style.css">
+    <a href="create.php"></a>
     <title>Bumba Meu Pão</title>
 </head>
 <body>
-     <header>
-
-        <div class="navbar">
-            <div class="flex">
-                <img class="icone" src="imagens/logo.png" alt="Logo Bumba Meu Pão">
-            </div>
-        </div>
-
-    </header>
-
-    <section>
-            <h1>FAÇA SEU PEDIDO</h1>
-            <div id="formulario">
-            
-    </section>
+     <a href="create.php">Início</a>
 </body>
 </html>
