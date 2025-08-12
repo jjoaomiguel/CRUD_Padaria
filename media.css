@@ -1,0 +1,179 @@
+@media only screen and (max-width: 1700px) {
+  body {
+    .icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    .navbar {
+      font-size: smaller;
+      margin: 0% 35% 0% 5%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1545px) {
+  body {
+    #icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    #navbar {
+      font-size: smaller;
+      margin: 0% 30% 0% 5%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1430px) {
+  body {
+    #icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    #navbar {
+      font-size: smaller;
+      margin: 0% 25% 0% 5%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  body {
+    #icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    #navbar {
+      font-size: smaller;
+      margin: 0% 20% 0% 5%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1245px) {
+  body {
+    #icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    #navbar {
+      font-size: smaller;
+      margin: 0% 15% 0% 5%;
+    }
+    
+  }
+}
+
+@media only screen and (max-width: 1175px) {
+  body {
+    #icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+    }
+    #navbar {
+      font-size: smaller;
+      margin: 0% 10% 0% 5%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  body {
+    #icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+    }
+
+    #navbar {
+      font-size: smaller;
+      margin: 0% 5% 0% 5%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    #icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+    }
+    
+    #navbar {
+      font-size: smaller;
+      margin: 0% 2% 0% 4%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1008px) {
+  body {
+   
+    #icone {
+      margin-left: 10px;
+      margin-right: 10px;
+      display: flex;
+      font-size: smaller;
+    }
+
+    #navbar {
+      font-size: smaller;
+      margin: 0% 10% 0% 5%;
+    }
+
+  }
+}
+
+
+@media only screen and (max-width: 980px) {
+  body {
+    #icone{
+      display: none;
+    }
+    
+    #navbar {
+      font-size: smaller;
+      margin: 0% 2% 0% 4%;
+    }
+    
+  }
+}
+
+@media only screen and (max-width: 865px) {
+  body {
+    #navbar {
+      font-size: x-small;
+      margin: 0% 2% 0% 4%;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 795px) {
+  body {
+    #navbar {
+      font-size: xx-small;
+      margin: 0% 2% 0% 4%;
+    }
+
+  }
+}
