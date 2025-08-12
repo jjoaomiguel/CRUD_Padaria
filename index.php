@@ -16,5 +16,11 @@
         </div>
 
     </header>
+
+    <section>
+            <h1>FAÇA SEU PEDIDO</h1>
+            <div id="formulario">
+            
+    </section>
 </body>
 </html>
