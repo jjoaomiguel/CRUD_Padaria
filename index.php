@@ -10,7 +10,9 @@
      <header>
 
         <div id="navbar">
-            <img id="icone" src="imagens/logo.png" alt="Logo Bumba Meu Pão">
+            <div id="flex">
+                <img id="icone" src="imagens/logo.png" alt="Logo Bumba Meu Pão">
+            </div>
         </div>
 
     </header>

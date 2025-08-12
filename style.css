@@ -1,13 +1,16 @@
 body{
-    background-color: rgb(144, 166, 236);
+    background-color: #9b5c42;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 40px 20px;
+}
+
+#navbar{
+    background-color:#6f4f28;
+    color: rgb(236, 236, 226);
+    text-align: center;
 }
 
 #icone{
     width: 250px;
     height: 250px;
-    align-items: center;
-    justify-content: center;
 }
