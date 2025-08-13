@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/media.css">
     <link rel="stylesheet" href="style/style.css">
-    <a href="script/create.php"></a>
+    <a href="script/produto_create.php"></a>
     <a href="script/db.php"></a>
     <a href="script/delete.php"></a>
     <a href="script/read.php"></a>

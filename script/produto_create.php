@@ -29,6 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/media.css">
     <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Criar Produto</title>
 </head>
 <body>
@@ -42,19 +43,21 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     </header>
 
+    <br>
+
     <form method="POST" action="create.php">
 
         <label for="name">Nome:</label>
         <input type="text" name="name" required>
 
         <label for="preco">Preço:</label>
-        <input type="preco" name="preco" required>
+        <input type="text" name="preco" required>
 
         <label for="categoria">Categoria:</label>
-        <input type="categoria" name="categoria" required>
+        <input type="text" name="categoria" required>
 
         <label for="descricao">Descrição:</label>
-        <input type="descricao" name="descricao" required>
+        <input type="text" name="descricao" required>
 
         <input type="submit" value="Adicionar">
 
