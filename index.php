@@ -8,11 +8,11 @@
     <a href="script/produto_create.php"></a>
     <a href="script/db.php"></a>
     <a href="script/delete.php"></a>
-    <a href="script/read.php"></a>
+    <a href="script/produto_read.php"></a>
     <a href="script/update.php"></a>
     <title>Bumba Meu Pão</title>
 </head>
 <body>
-     <a href="script/create.php">Início</a>
+     <a href="script/produto_create.php">Início</a>
 </body>
 </html>

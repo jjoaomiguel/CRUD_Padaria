@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <br>
 
-    <form method="POST" action="create.php">
+    <form method="POST" action="produto_create.php">
 
         <label for="name">Nome:</label>
         <input type="text" name="name" required>
@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     </form>
 
-    <a href="read.php">Ver Produtos.</a>
+    <a href="produto_read.php">Ver Produtos.</a>
 
 </body>
 </html>
