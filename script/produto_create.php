@@ -5,12 +5,14 @@ include 'db.php';
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     $name = $_POST['name'];
-    $preco = $_POST['email'];
+    $preco = $_POST['preco'];
+    $categoria = $_POST['categoria'];
+    $descricao = $_POST['descricao'];
 
-    $sql = " INSERT INTO usuarios (name,email) VALUE ('$name','$email')";
+    $sql = " INSERT INTO produto (name,preco,categoria,descricao) VALUE ('$name','$preco','$categoria','$descricao')";
 
     if ($conn->query($sql) === true) {
-        echo "Novo registro criado com sucesso.";
+        echo "Novo produto criado com sucesso.";
     } else {
         echo "Erro " . $sql . '<br>' . $conn->error;
     }
@@ -27,7 +29,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style/media.css">
     <link rel="stylesheet" href="../style/style.css">
-    <title>Create</title>
+    <title>Criar Produto</title>
 </head>
 <body>
     <header>
@@ -42,19 +44,23 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     <form method="POST" action="create.php">
 
-        <label for="name">Produtos:</label>
+        <label for="name">Nome:</label>
         <input type="text" name="name" required>
 
-        <input type="submit" value="Buscar">
+        <label for="preco">Preço:</label>
+        <input type="preco" name="preco" required>
 
-        <label for="name">Categorias:</label>
-        <input type="text" name="name" required>
+        <label for="categoria">Categoria:</label>
+        <input type="categoria" name="categoria" required>
 
-        <input type="submit" value="Buscar">
+        <label for="descricao">Descrição:</label>
+        <input type="descricao" name="descricao" required>
+
+        <input type="submit" value="Adicionar">
 
     </form>
 
-    <a href="read.php">Ver registros.</a>
+    <a href="read.php">Ver Produtos.</a>
 
 </body>
 </html>
