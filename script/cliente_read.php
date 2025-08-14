@@ -34,7 +34,7 @@ $result = $conn->query($sql);
         <a href="../index.php" class="btn btn-secondary ms-2">Sair</a>
     </div>
     <div class="ms-auto">
-            <a href="carrinho.php" class="btn btn-warning">Carrinho</a>
+            <a href="carrinho_read.php" class="btn btn-warning">Carrinho</a>
         </div>
 </nav>
 

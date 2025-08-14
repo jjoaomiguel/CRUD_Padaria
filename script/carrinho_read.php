@@ -66,7 +66,7 @@ $result = $conn->query($sql);
                             <td>{$row['data_pedido']}</td>
                             <td>{$row['status']}</td>
                             <td>
-                                <a class='btn btn-danger btn-sm' href='carrinho.php?delete_id={$row['id_pedido']}'>Remover</a>
+                                <a class='btn btn-danger btn-sm' href='carrinho_deletar.php?id_pedido={$row['id_pedido']}'>Remover</a>
                             </td>
                           </tr>";
                 }
@@ -84,7 +84,7 @@ $result = $conn->query($sql);
 
     <a class="btn btn-primary" href="cliente_read.php">Continuar Comprando</a>
     <?php if($total > 0): ?>
-        <a class="btn btn-success" href="finalizar_pedido.php">Finalizar Compra</a>
+        <a class="btn btn-success" href="">Finalizar Compra</a>
     <?php endif; ?>
 </div>
 
