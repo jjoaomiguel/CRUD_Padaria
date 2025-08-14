@@ -35,6 +35,14 @@ $conn->close();
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../style/style.css">
 </head>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div id="flex">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top">
+            Bumba Meu Pão
+        </a>
+    </div>
+</nav>
 <body>
 <div class="container mt-5">
     <div class="alert <?= $alertClass ?> alert-dismissible fade show" role="alert">

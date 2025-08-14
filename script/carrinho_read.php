@@ -34,6 +34,14 @@ $result = $conn->query($sql);
     <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div id="flex">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top">
+            Bumba Meu Pão
+        </a>
+    </div>
+</nav>
 <div class="container mt-4">
     <h2 class="mb-3">Carrinho de Compras</h2>
 

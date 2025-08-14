@@ -26,16 +26,19 @@ $result = $conn->query($sql);
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div id="flex">
-        <a class="navbar-brand" href="#">
-            <img src="../assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top">
+    <div class="container">
+        <!-- Logo e nome à esquerda -->
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="../assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top me-2">
             Bumba Meu Pão
         </a>
-        <a href="../index.php" class="btn btn-secondary ms-2">Sair</a>
-    </div>
-    <div class="ms-auto">
+
+        <!-- Botões à direita -->
+        <div class="ms-auto d-flex gap-2">
+            <a href="../index.php" class="btn btn-secondary">Sair</a>
             <a href="carrinho_read.php" class="btn btn-warning">Carrinho</a>
         </div>
+    </div>
 </nav>
 
 <div class="container mt-4">
