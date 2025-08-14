@@ -33,8 +33,8 @@ if ($result->num_rows > 0) {
                 <td> {$row['descricao']} </td>
                 <td> {$row['created_at']} </td>
                 <td> 
-                    <a href='update.php?id={$row['id_produto']}'>Editar<a>
-                    <a href='delete.php?id={$row['id_produto']}'>Excluir<a>
+                    <a href='produto_update.php?id_produto={$row['id_produto']}'>Editar<a>
+                    <a href='produto_delete.php?id={$row['id_produto']}'>Excluir<a>
                 
                 </td>
               </tr>   

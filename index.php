@@ -9,7 +9,7 @@
     <a href="script/db.php"></a>
     <a href="script/delete.php"></a>
     <a href="script/produto_read.php"></a>
-    <a href="script/update.php"></a>
+    <a href="script/produto_update.php"></a>
     <title>Bumba Meu Pão</title>
 </head>
 <body>
