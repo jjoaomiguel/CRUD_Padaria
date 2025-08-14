@@ -1,21 +1,27 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color:rgb(255, 252, 252);
-    color: black;
+body {
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    color: black;
 }
 
-.navbar{
-    background-color:rgb(182, 132, 6);
-    color: rgb(236, 236, 226);
-    text-align: center;
+.navbar-brand .logo {
+    height: 40px;
+    margin-right: 10px;
 }
 
-.icone{
-    width: 250px;
-    height: 250px;
+.login-options {
+    margin-top: 10%;
 }
 
+.btn-login {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.btn-login:hover {
+    transform: scale(1.05);
+}

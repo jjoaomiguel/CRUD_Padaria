@@ -5,8 +5,8 @@
 
 $servername = "localhost";
 $username = "root";
-$password = "root";
-$dbname = "crud_padaria";
+$password = "";
+$dbname = "padaria";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 

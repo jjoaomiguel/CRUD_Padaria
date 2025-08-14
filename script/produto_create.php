@@ -1,25 +1,25 @@
 <?php
-
 include 'db.php';
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
-    $name = $_POST['name'];
-    $preco = $_POST['preco'];
-    $categoria = $_POST['categoria'];
+    $nome = $_POST['nome'];
     $descricao = $_POST['descricao'];
-
-    $sql = " INSERT INTO produto (name,preco,categoria,descricao) VALUE ('$name','$preco','$categoria','$descricao')";
+    $preco = $_POST['preco'];
+    $quantidade_estoque = $_POST['quantidade_estoque'];
+    $id_usuario = 1;
+    
+    $sql = "INSERT INTO produtos (nome, descricao, preco, quantidade_estoque, id_usuario) 
+            VALUES ('$nome', '$descricao', '$preco', '$quantidade_estoque', '$id_usuario')";
 
     if ($conn->query($sql) === true) {
-        echo "Novo produto criado com sucesso.";
+        $msg = "Novo produto criado com sucesso.";
+        $alertClass = "alert-success";
     } else {
-        echo "Erro " . $sql . '<br>' . $conn->error;
+        $msg = "Erro: " . $conn->error;
+        $alertClass = "alert-danger";
     }
     $conn->close();
 }
-
-
 ?>
 
 <!DOCTYPE html>
@@ -27,43 +27,64 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/media.css">
-    <link rel="stylesheet" href="../style/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Criar Produto</title>
 </head>
 <body>
-    <header>
 
-        <div class="navbar">
-            <div class="flex">
-                <img class="icone" src="../assets/logo.png" alt="Logo Bumba Meu Pão">
-            </div>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/logo.png" alt="Logo" width="40" class="d-inline-block align-text-top">
+            Bumba Meu Pão
+        </a>
+    </div>
+</nav>
+
+<div class="container mt-5">
+    <!-- Mensagem de alerta -->
+    <?php if(isset($msg)): ?>
+        <div class="alert <?= $alertClass ?> alert-dismissible fade show" role="alert">
+            <?= $msg ?>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
+    <?php endif; ?>
 
-    </header>
+    <!-- Card do Formulário -->
+    <div class="card shadow-sm">
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">Adicionar Novo Produto</h4>
+        </div>
+        <div class="card-body">
+            <form method="POST" action="produto_create.php">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" name="nome" id="nome" required>
+                </div>
 
-    <br>
+                <div class="mb-3">
+                    <label for="descricao" class="form-label">Descrição:</label>
+                    <input type="text" class="form-control" name="descricao" id="descricao" required>
+                </div>
 
-    <form method="POST" action="produto_create.php">
+                <div class="mb-3">
+                    <label for="preco" class="form-label">Preço:</label>
+                    <input type="text" class="form-control" name="preco" id="preco" required>
+                </div>
 
-        <label for="name">Nome:</label>
-        <input type="text" name="name" required>
+                <div class="mb-3">
+                    <label for="quantidade_estoque" class="form-label">Quantidade no Estoque:</label>
+                    <input type="number" class="form-control" name="quantidade_estoque" id="quantidade_estoque" required>
+                </div>
 
-        <label for="preco">Preço:</label>
-        <input type="text" name="preco" required>
+                <button type="submit" class="btn btn-success">Adicionar</button>
+                <a href="produto_read.php" class="btn btn-secondary ms-2">Ver Produtos</a>
+            </form>
+        </div>
+    </div>
+</div>
 
-        <label for="categoria">Categoria:</label>
-        <input type="text" name="categoria" required>
-
-        <label for="descricao">Descrição:</label>
-        <input type="text" name="descricao" required>
-
-        <input type="submit" value="Adicionar">
-
-    </form>
-
-    <a href="produto_read.php">Ver Produtos.</a>
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

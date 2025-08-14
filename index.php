@@ -12,13 +12,33 @@
     <a href="../script/delete.php"></a>
     <a href="../script/produto_read.php"></a>
     <a href="../script/produto_update.php"></a>
-    <title>Bumba Meu Pão</title>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Bumba Meu Pão</title>
 </head>
-<body class="p-3 m-0 border-0 bd-example m-0 border-0">
-    <div class="d-grid gap-2 col-6 mx-auto">
-      <button class="btn btn-primary" type="button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Gerente</font></font></button>
-      <button class="btn btn-primary" type="button"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Cliente</font></font></button>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="./assets/logo.png" alt="Logo Bumba Meu Pão" class="logo" width="40">
+            Bumba Meu Pão
+        </a>
     </div>
-  </body>
+</nav>
+
+<div class="container login-options text-center">
+    <h1 class="mb-5">Escolha sua entrada</h1>
+    <div class="d-grid gap-3 col-6 mx-auto">
+        <button class="btn btn-success btn-login" onclick="window.location.href='./script/produto_create.php'">
+            Gerente
+        </button>
+        <button class="btn btn-warning btn-login" onclick="window.location.href='./cliente_dashboard.php'">
+            Cliente
+        </button>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
