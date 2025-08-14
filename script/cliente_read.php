@@ -10,10 +10,15 @@
 </head>
 <body class="p-3 m-0 border-0 bd-example m-0 border-0">
     <div class="card" style="width: 18rem;">
-      <svg aria-label="Espaço reservado: tampa da imagem" class="bd-placeholder-img card-img-top" height="180" preserveAspectRatio="xMidYMid slice" role="img" width="100%" xmlns="http://www.w3.org/2000/svg"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect><text x="50%" y="50%" fill="#dee2e6" dy=".3em"></text></svg>
+        <img src="../assets/croassaint_imagem.jpg" class="card-img-top" alt="Crsoissant">
       <div class="card-body">
-        <h5 class="card-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Croassaint</font></font></h5>
-        <p class="card-text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"><strong>R$ 7,99</strong>   Um crossaint tamanho médio, fazemos na hora, para uma pessoa.</font></font></p>
+        <h5 class="card-title">
+            <font dir="auto" style="vertical-align: inherit;">
+
+            <font dir="auto" style="vertical-align: inherit;">Croissant</font></font></h5>
+        <p class="card-text">
+            <font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+                <strong>R$ 7,99</strong>Um croissant tamanho médio, fazemos na hora, para uma pessoa.</font></font></p>
         <a href="#" class="btn btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Adicionar ao carrinho</font></font></a>
       </div>
     </div>
