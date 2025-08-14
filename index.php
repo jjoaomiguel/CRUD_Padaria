@@ -13,6 +13,7 @@
     <title>Bumba Meu Pão</title>
 </head>
 <body>
-     <a href="script/produto_create.php">Início</a>
+     <a href="script/produto_create.php">Gerente</a>
+     <a href="script/cliente_read.php">Cliente</a>
 </body>
 </html>
