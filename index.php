@@ -18,10 +18,10 @@
 
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
-    <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-            <img src="./assets/logo.png" alt="Logo Bumba Meu Pão" class="logo" width="40">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div id="flex">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top">
             Bumba Meu Pão
         </a>
     </div>

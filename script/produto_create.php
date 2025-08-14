@@ -34,11 +34,12 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
+    <div id="flex">
         <a class="navbar-brand" href="#">
-            <img src="../assets/logo.png" alt="Logo" width="40" class="d-inline-block align-text-top">
+            <img src="../assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top">
             Bumba Meu Pão
         </a>
+        <a href="../index.php" class="btn btn-secondary ms-2">Sair</a>
     </div>
 </nav>
 
