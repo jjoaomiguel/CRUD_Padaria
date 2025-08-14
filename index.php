@@ -15,5 +15,10 @@
 <body>
      <a href="script/produto_create.php">Gerente</a>
      <a href="script/cliente_read.php">Cliente</a>
+
+    <div class="d-grid gap-2">
+        <a href="/script/produto_create.php"><button class="btn btn-primary" type="button">Gerente</button></a>
+        <button class="btn btn-primary" type="button">Cliente</button>
+    </div>
 </body>
 </html>
