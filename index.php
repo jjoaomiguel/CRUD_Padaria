@@ -33,7 +33,7 @@
         <button class="btn btn-success btn-login" onclick="window.location.href='./script/produto_create.php'">
             Gerente
         </button>
-        <button class="btn btn-warning btn-login" onclick="window.location.href='./cliente_dashboard.php'">
+        <button class="btn btn-warning btn-login" onclick="window.location.href='./script/cliente_read.php'">
             Cliente
         </button>
     </div>
