@@ -1,7 +1,24 @@
-<link rel="stylesheet" href="../style/media.css">
-<link rel="stylesheet" href="../style/style.css">
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../style/media.css">
+    <link rel="stylesheet" href="../style/style.css">
+    <title>Criar Produto</title>
+</head>
+<body>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="../assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top me-2">
+            Bumba Meu Pão
+        </a>
+    </div>
+</nav>
+
 
 <div class="container mt-4">
     <h2 class="mb-3">Lista de Produtos</h2>
@@ -49,3 +66,7 @@
     </table>
     <a class="btn btn-success" href="produto_create.php">Inserir novo Produto</a>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
