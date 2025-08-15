@@ -6,9 +6,9 @@ esse esqueleto em um mini‑sistema funcional, aplicando boas práticas de organ
 segurança e usabilidade.
 
 //SCRIPT SQL
-CREATE DATABASE padaria;
+CREATE DATABASE crud_padaria;
 
-USE padaria;
+USE crud_padaria;
 
 CREATE TABLE usuarios(
     id_usuario INT AUTO_INCREMENT PRIMARY KEY,
