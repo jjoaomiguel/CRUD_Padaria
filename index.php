@@ -19,13 +19,13 @@
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div id="flex">
-        <a class="navbar-brand" href="#">
-            <img src="./assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="./assets/logo1.png" alt="Logo" width="40" class="d-inline-block align-text-top me-2">
             Bumba Meu Pão
         </a>
     </div>
-</nav>
+</nav><br>
 
 <div class="container login-options text-center">
     <h1 class="mb-5">Escolha sua entrada</h1>
